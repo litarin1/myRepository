@@ -1,2 +1,11 @@
-var a = 5, b = 3;
-document.write(a%b == 0)
+let a = 34,b = 51;
+if(a > b)
+	document.write("всё зашибись")
+else if(a < b)
+	document.write("<b>a < b</b>")
+else if(a==b)
+	document.write("<b>a == b</b>")
+else if(a<=b)
+	document.write("<b>a <= b</b>")
+else if(a>=b)
+	document.write("<b>a >= b</b>")
