@@ -1,11 +1,7 @@
-let a = 344,b = 551;
-if(a>b)
-	document.write("всё зашибись")
-else if(a<b)
-	document.write("<b>a < b</b>")
-else if(a==b)
-	document.write("<b>a == b</b>")
-else if(a<=b)
-	document.write("<b>a <= b</b>")
-else if(a>=b)
-	document.write("<b>a >= b</b>")
+let a=0,b=0;
+while(a<1000)
+{
+	a+=2
+	b++
+}
+document.write("while выполнен выполнен ", b," раз")
