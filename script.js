@@ -1,0 +1,11 @@
+let a = 344,b = 551;
+if(a>b)
+	document.write("всё зашибись")
+else if(a<b)
+	document.write("<b>a < b</b>")
+else if(a==b)
+	document.write("<b>a == b</b>")
+else if(a<=b)
+	document.write("<b>a <= b</b>")
+else if(a>=b)
+	document.write("<b>a >= b</b>")
