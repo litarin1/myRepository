@@ -1,13 +1,6 @@
-var buttonscount=1, tmp=0;
 function function_name() {
-	buttonscount++;
-	for(i=buttonscount;i!=buttonscount;i++)
-	{
-		var tmp=0;
-		tmp=tmp+'<input type="button" onclick="function_name()">';
-	}
-	return(tmp);
-}
+return('<input type="button" onclick="document.write(function_name())" value="8 952 806 5873">');}
+
 
 /*
                                8
@@ -31,7 +24,5 @@ var sum=0;
 		sum = sum + a % 10;
 		a = (a - a % 10)/10;
 	}
-
 document.write(sum)
-
 */
